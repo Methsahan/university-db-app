@@ -1,4 +1,4 @@
-package com.example.universitydb.model;
+package com.example.university_db_app.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -26,4 +26,5 @@ public class Student {
     @Column(name = "email", nullable = false,
             unique = true, length = 100)
     private String email;
+    
 }

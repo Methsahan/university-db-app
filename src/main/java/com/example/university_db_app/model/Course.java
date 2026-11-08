@@ -1,4 +1,4 @@
-package com.example.universitydb.model;
+package com.example.university_db_app.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
